@@ -1,0 +1,50 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0px 0px;
+  grid-template-areas: "Name Work Play Study" "Name Exercise Social Self-Care";
+}
+
+.Name {
+  grid-area: Name;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.Work {
+  grid-area: Work;
+}
+
+.Play {
+  grid-area: Play;
+}
+
+.Study {
+  grid-area: Study;
+}
+
+.Exercise {
+  grid-area: Exercise;
+}
+
+.Social {
+  grid-area: Social;
+}
+
+.Self-Care {
+  grid-area: Self-Care;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+/*# sourceMappingURL=main.css.map */
